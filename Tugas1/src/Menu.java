@@ -223,12 +223,11 @@ public class Menu {
 			}
 				
 			} else {
-				System.out.println("Mohon maa f pilihan anda tidak ada dalam kategori.");
+				System.out.println("Mohon maaf pilihan anda tidak ada dalam kategori.");
 				orderPesanan();
 			}
 		} else {
 			System.out.println("Mohon maaf anda memesan lebih dari jumlah maximum pemesanan, maksimal 4 menu berbeda.");
-			orderPesanan();
 		}
 	}
 	
