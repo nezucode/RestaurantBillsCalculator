@@ -22,7 +22,6 @@ public class Menu {
 	static List<Double> simpanHargaTotal = new ArrayList<>();
 	static List<Integer> totalItem = new ArrayList<>();
 	
-	
 	static Scanner scan = new Scanner(System.in);
 	
 
@@ -150,7 +149,7 @@ public class Menu {
 				switch (listMinuman) {
 				case 1:
 					System.out.println("Masukkan jumlah pesanan: ");
-					System.out.print(minuman[0] + " = ");
+					System.out.print(minuman[0] + ": ");
 					int a = scan.nextInt();
 					String order = minuman[listMinuman - 1];
 					double harga = hargaMinuman[listMinuman - 1];
@@ -164,7 +163,7 @@ public class Menu {
 					break;
 				case 2:
 					System.out.println("Masukkan jumlah pesanan: ");
-					System.out.print(minuman[1] + " = ");
+					System.out.print(minuman[1] + ": ");
 					int b = scan.nextInt();
 					String order1 = minuman[listMinuman - 1];
 					double harga1 = hargaMinuman[listMinuman - 1];
@@ -178,7 +177,7 @@ public class Menu {
 					break;
 				case 3:
 					System.out.println("Masukkan jumlah pesanan: ");
-					System.out.print(minuman[2] + " = ");
+					System.out.print(minuman[2] + ": ");
 					int c = scan.nextInt();
 					String order2 = minuman[listMinuman - 1];
 					double harga2 = hargaMinuman[listMinuman - 1];
@@ -192,7 +191,7 @@ public class Menu {
 					break;
 				case 4:
 					System.out.println("Masukkan jumlah pesanan: ");
-					System.out.print(minuman[3] + " = ");
+					System.out.print(minuman[3] + ": ");
 					int d = scan.nextInt();
 					String order3 = minuman[listMinuman - 1];
 					double harga3 = hargaMinuman[listMinuman - 1];
@@ -206,7 +205,7 @@ public class Menu {
 					break;
 				case 5:
 					System.out.println("Masukkan jumlah pesanan: ");
-					System.out.print(minuman[4] + " = ");
+					System.out.print(minuman[4] + ": ");
 					int e = scan.nextInt();
 					String order4 = minuman[listMinuman - 1];
 					double harga4 = hargaMinuman[listMinuman - 1];
