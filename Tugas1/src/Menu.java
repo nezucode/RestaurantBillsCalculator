@@ -73,11 +73,7 @@ public class Menu {
 				showMakanan();
 				pilihOpsi();
 				int pilihMakanan = scan.nextInt();
-				if (pilihMakanan == 1) {
-					
-				} else {
-					
-				}
+				
 				break;
 			case 2:
 				showMinuman();
