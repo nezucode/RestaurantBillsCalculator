@@ -75,6 +75,8 @@ public class Menu {
 				int pilihMakanan = scan.nextInt();
 				if (pilihMakanan == 1) {
 					
+				} else {
+					
 				}
 				break;
 			case 2:
