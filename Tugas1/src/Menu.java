@@ -113,13 +113,7 @@ class EditMenu {
 	
 	public static void hapusMenuMakanan() {
 		showMakanan.tampilMenu();
-		System.out.print("Pilih menu yang akan dihapus: ");
-		int pilihMenu = scan.nextInt();
-		String namaMenu = makanan[pilihMenu-1];
-		makanan = removeTheElementString(makanan, pilihMenu-1);
-		hargaMakanan = removeTheElementInteger(hargaMakanan, pilihMenu-1);
-		System.out.println("Menu "+namaMenu+" berhasil dihapus.");
-		System.out.println("Menu makanan berhasil diubah.");
+		
 	}
 	
 	public static void ubahMenuMakanan() {
@@ -142,7 +136,6 @@ class EditMenu {
 	
 	public static void hapusMenuMinuman() {
 		showMinuman.tampilMenu();
-		
 	}
 	
 	public static void ubahMenuMinuman() {
@@ -501,10 +494,10 @@ class EditMenuScreen {
 			int pilihKategori = scan.nextInt();
 			switch (pilihKategori) {
 			case 1:
-				editMenu.hapusMenuMinuman();
+				editMenu.hapusMenuMakanan();
 				break;
 			case 2:
-				editMenu.hapusMenuMakanan();
+				editMenu.hapusMenuMinuman();
 				break;
 			case 3:
 				kategori.showEditKategori();
@@ -631,6 +624,7 @@ class Menu {
 	ArrayList<String> itemMenu = new ArrayList<>();
 	
 	static MainMenu mainMenu = new MainMenu();
+	static EditMenu editMenu = new EditMenu();
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
